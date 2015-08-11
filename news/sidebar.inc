@@ -3,16 +3,16 @@
   <section>
     <h1>Topics</h1>
     <ul>
-      <li class="post">
+      <li>
 	<a href="/news/advisories">Security Advisories</a>
       </li>
-      <li class="post">
+      <li>
 	<a href="/news/vulnerabilities">Vulnerabilities</a>
       </li>
-      <li class="post">
+      <li>
 	<a href="/news/newsflash">Newsflash</a>
       </li>
-      <li class="post">
+      <li>
 	<a href="/news/changelogs">Changelogs</a>
       </li>
     </ul>
