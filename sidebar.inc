@@ -7,7 +7,7 @@
 	  <a href="/">Home: Home page</a>
       </li>
       <li>
-	  <a href="/download">Downloads: Source code</a>
+	  <a href="downloads">Downloads: Source code</a>
       </li>
       <li>
 	  <a href="news">News: Latest information</a>

@@ -18,7 +18,7 @@
   </form>
   <ul class="main-navigation">
     <li><a href="/" title="Home page">Home</a></li>
-    <li><a href="/download" title="Source code">Downloads</a></li>
+    <li><a href="/downloads" title="Source code">Downloads</a></li>
     <li><a href="/news" title="Latest information">News</a></li>
     <li><a href="/policies" title="How we operate">Policies</a></li>
     <li><a href="/community" title="Mailing lists, blog, bug reports, etc.">Community</a></li>

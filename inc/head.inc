@@ -5,6 +5,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <link rel="canonical" href="https://www.openssl.org/">
   <link href="favicon.png" rel="icon">
