@@ -1,19 +1,19 @@
 <!-- sidebar.inc -->
 <aside class="sidebar">
   <section>
-    <h1>Topics</h1>
+    <h1>News</h1>
     <ul>
       <li>
-	<a href="/news/advisories">Security Advisories</a>
+	<a href="advisories">Security Advisories</a>
       </li>
       <li>
-	<a href="/news/vulnerabilities">Vulnerabilities</a>
+	<a href="vulnerabilities">Vulnerabilities</a>
       </li>
       <li>
-	<a href="/news/newsflash">Newsflash</a>
+	<a href="newsflash">Newsflash</a>
       </li>
       <li>
-	<a href="/news/changelogs">Changelogs</a>
+	<a href="changelogs">Changelogs</a>
       </li>
     </ul>
   </section>

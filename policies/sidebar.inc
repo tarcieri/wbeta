@@ -1,19 +1,19 @@
 <!-- sidebar.inc -->
 <aside class="sidebar">
   <section>
-    <h1>Topics</h1>
+    <h1>Policies</h1>
     <ul>
       <li>
-	<a href="/news/advisories">Security Advisories</a>
+	<a href="roadmap.html">Roadmap</a>
       </li>
       <li>
-	<a href="/news/vulnerabilities">Vulnerabilities</a>
+	<a href="codingstyle.html">Coding Style</a>
       </li>
       <li>
-	<a href="/news/newsflash">Newsflash</a>
+	<a href="releasestrat.html">Release Strategy</a>
       </li>
       <li>
-	<a href="/news/changelogs">Changelogs</a>
+	<a href="secpolicy.html">Security Policy</a>
       </li>
     </ul>
   </section>
