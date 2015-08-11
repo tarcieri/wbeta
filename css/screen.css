@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-mark, audio, video {
+mark {
   margin: 0;
   padding: 0;
   border: 0;
@@ -91,15 +91,15 @@ a {
 }
 
 html {
-  background: #252525 url('/blog/images/line-tile.png?1424968208') top left;
+  background: #252525 url('/img/line-tile.png?1424968208') top left;
 }
 
 body > div {
-  background: #f2f2f2 url('/blog/images/noise.png?1424968208') top left;
+  background: #f2f2f2 url('/img/noise.png?1424968208') top left;
   border-bottom: 1px solid #bfbfbf;
 }
 body > div > div {
-  background: #f8f8f8 url('/blog/images/noise.png?1424968208') top left;
+  background: #f8f8f8 url('/img/noise.png?1424968208') top left;
   border-right: 1px solid #e0e0e0;
 }
 
@@ -422,24 +422,24 @@ aside.sidebar {
   border-top: 1px solid #e0e0e0;
 }
 
-.flex-content, article img, article video, article .flash-video, aside.sidebar img {
+.flex-content, article img, aside.sidebar img {
   max-width: 100%;
   height: auto;
 }
 
-.basic-alignment.left, article img.left, article video.left, article .left.flash-video, aside.sidebar img.left {
+.basic-alignment.left, article img.left, aside.sidebar img.left {
   float: left;
   margin-right: 1.5em;
 }
-.basic-alignment.right, article img.right, article video.right, article .right.flash-video, aside.sidebar img.right {
+.basic-alignment.right, article img.right, aside.sidebar img.right {
   float: right;
   margin-left: 1.5em;
 }
-.basic-alignment.center, article img.center, article video.center, article .center.flash-video, aside.sidebar img.center {
+.basic-alignment.center, article img.center, aside.sidebar img.center {
   display: block;
   margin: 0 auto 1.5em;
 }
-.basic-alignment.left, article img.left, article video.left, article .left.flash-video, aside.sidebar img.left, .basic-alignment.right, article img.right, article video.right, article .right.flash-video, aside.sidebar img.right {
+.basic-alignment.left, article img.left, aside.sidebar img.left, .basic-alignment.right, article img.right, aside.sidebar img.right {
   margin-bottom: .8em;
 }
 
@@ -638,11 +638,11 @@ body > header h2 {
 body > nav {
   position: relative;
   background-color: #cccccc;
-  background: url('/blog/images/noise.png?1424968208'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
-  background: url('/blog/images/noise.png?1424968208'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/blog/images/noise.png?1424968208'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/blog/images/noise.png?1424968208'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/blog/images/noise.png?1424968208'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+  background: url('/img/noise.png?1424968208'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #8c8c8c;
   padding-top: .35em;
@@ -802,7 +802,7 @@ body > nav ul {
 }
 
 .no-placeholder body > nav .search {
-  background: #f2f2f2 url('/blog/images/search.png?1424968208') 0.3em 0.25em no-repeat;
+  background: #f2f2f2 url('/img/search.png?1424968208') 0.3em 0.25em no-repeat;
   text-indent: 1.3em;
 }
 
@@ -833,11 +833,11 @@ body > nav ul {
   padding: 0;
 }
 .maskImage a[rel=subscribe-rss], .maskImage a[rel=subscribe-rss]:after {
-  -webkit-mask-image: url('/blog/images/rss.png?1424968208');
-  -moz-mask-image: url('/blog/images/rss.png?1424968208');
-  -ms-mask-image: url('/blog/images/rss.png?1424968208');
-  -o-mask-image: url('/blog/images/rss.png?1424968208');
-  mask-image: url('/blog/images/rss.png?1424968208');
+  -webkit-mask-image: url('/img/rss.png?1424968208');
+  -moz-mask-image: url('/img/rss.png?1424968208');
+  -ms-mask-image: url('/img/rss.png?1424968208');
+  -o-mask-image: url('/img/rss.png?1424968208');
+  mask-image: url('/img/rss.png?1424968208');
   -webkit-mask-repeat: no-repeat;
   -moz-mask-repeat: no-repeat;
   -ms-mask-repeat: no-repeat;
@@ -865,11 +865,11 @@ body > nav ul {
   padding: 0;
 }
 .maskImage a[rel=subscribe-email], .maskImage a[rel=subscribe-email]:after {
-  -webkit-mask-image: url('/blog/images/email.png?1424968208');
-  -moz-mask-image: url('/blog/images/email.png?1424968208');
-  -ms-mask-image: url('/blog/images/email.png?1424968208');
-  -o-mask-image: url('/blog/images/email.png?1424968208');
-  mask-image: url('/blog/images/email.png?1424968208');
+  -webkit-mask-image: url('/img/email.png?1424968208');
+  -moz-mask-image: url('/img/email.png?1424968208');
+  -ms-mask-image: url('/img/email.png?1424968208');
+  -o-mask-image: url('/img/email.png?1424968208');
+  mask-image: url('/img/email.png?1424968208');
   -webkit-mask-repeat: no-repeat;
   -moz-mask-repeat: no-repeat;
   -ms-mask-repeat: no-repeat;
@@ -944,7 +944,7 @@ article .feature {
   font-style: italic;
   line-height: 1.3em;
 }
-article img, article video, article .flash-video {
+article img, {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   -ms-border-radius: 0.3em;
@@ -957,28 +957,6 @@ article img, article video, article .flash-video {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: white 0.5em solid;
-}
-article video, article .flash-video {
-  margin: 0 auto 1.5em;
-}
-article video {
-  display: block;
-  width: 100%;
-}
-article .flash-video > div {
-  position: relative;
-  display: block;
-  padding-bottom: 56.25%;
-  padding-top: 1px;
-  height: 0;
-  overflow: hidden;
-}
-article .flash-video > div iframe, article .flash-video > div object, article .flash-video > div embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 article > footer {
   padding-bottom: 2.5em;
@@ -1091,7 +1069,7 @@ p.meta + .sharing {
   text-align: right;
   font-size: 13px;
   line-height: 1.45em;
-  background: #073642 url('/blog/images/noise.png?1424968208') top left !important;
+  background: #073642 url('/img/noise.png?1424968208') top left !important;
   border-right: 1px solid #00232c !important;
   -webkit-box-shadow: #083e4b -1px 0 inset;
   -moz-box-shadow: #083e4b -1px 0 inset;
@@ -1136,7 +1114,7 @@ figure.code .highlight pre, .highlight pre, pre .highlight pre {
 }
 
 pre {
-  background: #002b36 url('/blog/images/noise.png?1424968208') top left;
+  background: #002b36 url('/img/noise.png?1424968208') top left;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
@@ -1190,7 +1168,7 @@ p pre code, li pre code {
   padding: .8em;
   overflow-x: auto;
   line-height: 1.45em;
-  background: #002b36 url('/blog/images/noise.png?1424968208') top left !important;
+  background: #002b36 url('/img/noise.png?1424968208') top left !important;
   color: #93a1a1 !important;
 }
 .pre-code span, html .highlight pre span, .highlight code span {
@@ -1437,7 +1415,7 @@ figure.code .highlight {
   -webkit-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
   font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
-  background: #aaaaaa url('/blog/images/code_bg.png?1424968208') top repeat-x;
+  background: #aaaaaa url('/img/code_bg.png?1424968208') top repeat-x;
   border: 1px solid #565656;
   border-top-color: #cbcbcb;
   border-left-color: #a5a5a5;
@@ -1577,7 +1555,7 @@ aside.sidebar:hover a:hover {
     -webkit-border-bottom-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     text-align: center;
-    background: #f8f8f8 url('/blog/images/noise.png?1424968208') top left;
+    background: #f8f8f8 url('/img/noise.png?1424968208') top left;
     border-bottom: 1px solid #e0e0e0;
     border-right: 1px solid #e0e0e0;
     content: "\00BB";
@@ -1604,65 +1582,17 @@ aside.sidebar:hover a:hover {
     background: none;
   }
 }
-.googleplus h1 {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -o-box-shadow: none !important;
-  box-shadow: none !important;
-  border-bottom: 0px none !important;
-}
-.googleplus a {
-  text-decoration: none;
-  white-space: normal !important;
-  line-height: 32px;
-}
-.googleplus a img {
-  float: left;
-  margin-right: 0.5em;
-  border: 0 none;
-}
-
-.googleplus-hidden {
-  position: absolute;
-  top: -1000em;
-  left: -1000em;
-}
-
-#pinboard_linkroll .pin-title, #pinboard_linkroll .pin-description {
-  display: block;
-  margin-bottom: .5em;
-}
-#pinboard_linkroll .pin-tag {
-  text-decoration: none;
-}
-#pinboard_linkroll .pin-tag:hover {
-  text-decoration: underline;
-}
-#pinboard_linkroll .pin-tag:after {
-  content: ',';
-}
-#pinboard_linkroll .pin-tag:last-child:after {
-  content: '';
-}
-
-.delicious-posts a.delicious-link {
-  margin-bottom: .5em;
-  display: block;
-}
-.delicious-posts p {
-  font-size: 1em;
-}
 
 body > footer {
   font-size: .8em;
   color: #888888;
   text-shadow: #d9d9d9 0 1px;
   background-color: #cccccc;
-  background: url('/blog/images/noise.png?1424968208'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
-  background: url('/blog/images/noise.png?1424968208'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/blog/images/noise.png?1424968208'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/blog/images/noise.png?1424968208'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/blog/images/noise.png?1424968208'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+  background: url('/img/noise.png?1424968208'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png?1424968208'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
   border-top: 1px solid #f2f2f2;
   position: relative;
   padding-top: 1em;

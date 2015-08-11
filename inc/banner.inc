@@ -3,7 +3,7 @@
   <hgroup>
     <h1>
       <a href="/">
-	<img src="/images/openssl.png" alt="OpenSSL"></img>
+	<img src="/img/openssl.png" alt="OpenSSL"></img>
       </a>
     </h1>
   </hgroup>
