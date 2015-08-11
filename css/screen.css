@@ -91,15 +91,15 @@ a {
 }
 
 html {
-  background: #252525 url('/img/line-tile.png?1424968208') top left;
+  background: #252525 url('/img/line-tile.png') top left;
 }
 
 body > div {
-  background: #f2f2f2 url('/img/noise.png?1424968208') top left;
+  background: #f2f2f2 url('/img/noise.png') top left;
   border-bottom: 1px solid #bfbfbf;
 }
 body > div > div {
-  background: #f8f8f8 url('/img/noise.png?1424968208') top left;
+  background: #f8f8f8 url('/img/noise.png') top left;
   border-right: 1px solid #e0e0e0;
 }
 
@@ -638,11 +638,11 @@ body > header h2 {
 body > nav {
   position: relative;
   background-color: #cccccc;
-  background: url('/img/noise.png?1424968208'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
-  background: url('/img/noise.png?1424968208'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/img/noise.png?1424968208'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/img/noise.png?1424968208'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/img/noise.png?1424968208'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+  background: url('/img/noise.png'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #8c8c8c;
   padding-top: .35em;
@@ -802,7 +802,7 @@ body > nav ul {
 }
 
 .no-placeholder body > nav .search {
-  background: #f2f2f2 url('/img/search.png?1424968208') 0.3em 0.25em no-repeat;
+  background: #f2f2f2 url('/img/search.png') 0.3em 0.25em no-repeat;
   text-indent: 1.3em;
 }
 
@@ -1005,7 +1005,7 @@ p.meta + .sharing {
   text-align: right;
   font-size: 13px;
   line-height: 1.45em;
-  background: #073642 url('/img/noise.png?1424968208') top left !important;
+  background: #073642 url('/img/noise.png') top left !important;
   border-right: 1px solid #00232c !important;
   -webkit-box-shadow: #083e4b -1px 0 inset;
   -moz-box-shadow: #083e4b -1px 0 inset;
@@ -1050,7 +1050,7 @@ figure.code .highlight pre, .highlight pre, pre .highlight pre {
 }
 
 pre {
-  background: #002b36 url('/img/noise.png?1424968208') top left;
+  background: #002b36 url('/img/noise.png') top left;
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
@@ -1104,7 +1104,7 @@ p pre code, li pre code {
   padding: .8em;
   overflow-x: auto;
   line-height: 1.45em;
-  background: #002b36 url('/img/noise.png?1424968208') top left !important;
+  background: #002b36 url('/img/noise.png') top left !important;
   color: #93a1a1 !important;
 }
 .pre-code span, html .highlight pre span, .highlight code span {
@@ -1351,7 +1351,7 @@ figure.code .highlight {
   -webkit-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
   font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
-  background: #aaaaaa url('/img/code_bg.png?1424968208') top repeat-x;
+  background: #aaaaaa url('/img/code_bg.png') top repeat-x;
   border: 1px solid #565656;
   border-top-color: #cbcbcb;
   border-left-color: #a5a5a5;
@@ -1491,7 +1491,7 @@ aside.sidebar:hover a:hover {
     -webkit-border-bottom-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     text-align: center;
-    background: #f8f8f8 url('/img/noise.png?1424968208') top left;
+    background: #f8f8f8 url('/img/noise.png') top left;
     border-bottom: 1px solid #e0e0e0;
     border-right: 1px solid #e0e0e0;
     content: "\00BB";
@@ -1524,11 +1524,11 @@ body > footer {
   color: #888888;
   text-shadow: #d9d9d9 0 1px;
   background-color: #cccccc;
-  background: url('/img/noise.png?1424968208'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
-  background: url('/img/noise.png?1424968208'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/img/noise.png?1424968208'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/img/noise.png?1424968208'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
-  background: url('/img/noise.png?1424968208'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e0e0e0), color-stop(50%, #cccccc), color-stop(100%, #b0b0b0));
+  background: url('/img/noise.png'), -webkit-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), -moz-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), -o-linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
+  background: url('/img/noise.png'), linear-gradient(#e0e0e0, #cccccc, #b0b0b0);
   border-top: 1px solid #f2f2f2;
   position: relative;
   padding-top: 1em;
