@@ -2,7 +2,7 @@
 <aside class="sidebar">
   <section>
     <h1>Topics</h1>
-    <ul id="recent_posts">
+    <ul>
       <li class="post">
 	  <a href="/">Home: Home page</a>
       </li>

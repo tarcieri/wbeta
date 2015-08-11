@@ -1,0 +1,39 @@
+Home
+        the top-level landing page.
+
+Download
+        releases
+        snapshots
+        the "source" directory, mirros, etc.
+
+News
+        security advisories
+        vulnerabilities
+        newsflash
+        changelog
+
+Policies
+        release
+        security
+        coding style
+        legal
+            CLA's
+            patent licenses
+
+
+Community
+        link to the blog
+        link to the wiki
+        paragraph on RT
+        email lists
+        supporters
+                ack's of in-kind contributions and contributors
+
+FIPS
+        the doc/fips directory
+        anything else steve wants to write :)
+
+Commercial Support
+        contract
+        faq
+        basically, a merge of support and support/funding
