@@ -929,28 +929,11 @@ article > footer p.meta {
 #content .blog-index article h1 a:hover {
   color: #0181eb;
 }
-#content .blog-index a[rel=full-article] {
-  background: #ebebeb;
-  display: inline-block;
-  padding: .4em .8em;
-  margin-right: .5em;
-  text-decoration: none;
-  color: #666666;
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
-}
-#content .blog-index a[rel=full-article]:hover {
-  background: #0181eb;
-  text-shadow: none;
-  color: #f8f8f8;
-}
 #content .blog-index footer {
   margin-top: 1em;
 }
 
-.separator, article > footer .byline + time:before, article > footer time + time:before, article > footer .comments:before, article > footer .byline ~ .categories:before {
+.separator, article > footer .comments:before {
   content: "\2022 ";
   padding: 0 .4em 0 .2em;
   display: inline-block;
