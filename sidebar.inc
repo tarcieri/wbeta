@@ -10,7 +10,10 @@
 	  <a href="news">News: Latest information</a>
       </li>
       <li>
-	  <a href="policies">Policies: Our processes and guidelines</a>
+	  <a href="/download" title="Downloads">Downloads: Source code</a>
+      </li>
+      <li>
+	  <a href="policies">Policies: How we operate</a>
       </li>
       <li>
 	  <a href="community">Community: Mailing lists, blog, bug reports, etc.</a>
