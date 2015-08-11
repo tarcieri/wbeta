@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include virtual="/inc/head.inc" -->
+</head>
+
+<body>
+  <!--#include virtual="/inc/banner.inc" -->
+
+  <div id="main">
+  <div id="content">
+    <div class="blog-index">
+      <article>
+	<header><h2>Welcome to the OpenSSL Project</h2></header>
+	<div class="entry-content">
+	  <p>
+	  The OpenSSL Project is a collaborative effort to develop a
+	  robust, commercial-grade, full-featured, and Open Source toolkit
+	  implementing the Transport Layer Security (TLS) and Secure
+	  Sockets Layer (SSL v2/v3) protocols as well as a full-strength
+	  general purpose cryptography library. The project is managed
+	  by a worldwide community of volunteers that use the Internet
+	  to communicate, plan, and develop the OpenSSL toolkit and its
+	  related documentation.
+	  </p>
+
+	  <p>
+	  OpenSSL is based on the excellent SSLeay library developed by Eric
+	  Young and Tim Hudson. The OpenSSL toolkit is licensed under an
+	  Apache-style licence, which basically means that you are free to
+	  get and use it for commercial and non-commercial purposes subject
+	  to some simple license conditions. 
+	  </p>
+
+	  <p>
+	  Please remember that export/import and/or use of strong
+	  cryptography software, providing cryptography hooks, or even just
+	  communicating technical details about cryptography software is
+	  illegal in some parts of the world. So when you import this
+	  package to your country, re-distribute it from there or even
+	  just email technical suggestions or even source patches to the
+	  authors or other people you are strongly advised to pay close
+	  attention to any laws or regulations which apply to
+	  you. The authors of openssl are not liable for any violations
+	  you make here. So be careful, it is your responsibility.
+	  </p>
+
+	  <p>
+	  This product includes cryptographic software written by Eric
+	  Young. This product includes software written by Tim Hudson
+	  (tjh@cryptsoft.com)
+	  </p>
+
+	</div>
+	<footer>
+	  You are here: Home
+	</footer>
+      </article>
+    </div>
+    <!--#include virtual="sidebar.inc" -->
+  </div>
+</div>
+
+<!--#include virtual="/inc/footer.inc" -->
+</body>
+
+</html>
