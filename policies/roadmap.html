@@ -13,7 +13,7 @@
 	  <h2>Project Roadmap</h2>
 	  <h5>
 	    First issued 30th June 2014<br/>
-	    Last modified 14th October 2014
+	    Last modified 8th August 2015
 	  </h5>
 	</header>
 
@@ -159,17 +159,15 @@
 	  </ol>
 
 	  <h3>Incomplete/incorrect documentation</h3>
-	  <ol>
-	    <li>
-	    Provide complete documentation for all of the public API (excluding
-	    deprecated APIs) (Timescale: Within one year).
-	    This may include introducing a new documentation system.
-	    Some parts of the API have historically been public but
-	    were not intended for public use, such as low level cipher
-	    and digest APIs. These parts may not be documented,
-	    and if they are will be marked as deprecated (Timescale:
-	    within nine months).</li>
-	  </ol>
+	   <p>
+	   Provide complete documentation for all of the public API (excluding
+	   deprecated APIs) (Timescale: Within one year). This may include
+	   introducing a new documentation system. Some parts of the API have
+	   historically been public but were not intended for public use, such
+	   as low level cipher and digest APIs. These parts may not be
+	   documented, and if they are will be marked as deprecated
+	   (Timescale: within nine months).
+	   </p>
 
 	  <h3>Library complexity</h3>
 	  <ol>
@@ -180,11 +178,19 @@
 	    Document a platform strategy: see below (Timescale: Within three
 	    months)</li>
 	    <li>
-	    Review and refactor the FIPS code to make it far less intrusive
-	    (Timescale: Within one year)</li>
+	    <del>Review and refactor the FIPS code to make it far less
+	    intrusive (Timescale: Within one year)</del>
+	    <br>Objective met (2015): The FIPS code has been removed from the
+	    master branch, and will be re-integrated more cleanly during
+	    a future validation.
+	    </li>
 	    <li>
-	    Review and refactor the memory management code (Timescale: Within
-	    six months)</li>
+	    <del>Review and refactor the memory management code.
+	    (Timescale: Within six months)</del>
+	    <br>Objective met (2015): All use of dynamic memory allocation has
+	    been cleaned up and made consistent, and the internal memory
+	    pool has been removed.
+	    </li>
 	  </ol>
 
 	  <h3>Inconsistent coding style</h3>
@@ -195,9 +201,12 @@
 	    dependencies, unit testing and optional code. (Timescale: Within
 	    three months).</li>
 	    <li>
-	    Format the entire codebase according to the agreed standard.
+	    <del>Format the entire codebase according to the agreed standard.
 	    (Timescale: Within three months of coding standard being
-	    defined). </li>
+	    defined).</del>
+	    <br>Objective met (2015): All release branches were
+	    reformatted using a script included in the release.
+	    </li>
 	    <li>
 	    Refactor code to follow other parts of the style guide. (Timescale:
 	    Within one year)</li>
@@ -214,34 +223,34 @@
 	      sufficient team members that reviewers are more-or-less
 	      always available. (Timescale: Within three months)
 	    </del>
-	    <p>
-	    Objective met (16th July 2014): All changes are first reviewed by 
+	    <br>Objective met (16th July 2014): All changes are first reviewed by 
 	    another team member prior to being committed to the public openssl 
 	    repository.
-	    </p></li>
+	    </li>
 	    <li>
-	    Agree on a code review system. (Timescale: Within six months)</li>
+	    <del>
+	      Agree on a code review system. (Timescale: Within six months)
+	    </del>
+	    <br>Objective met (2015): We use
+	    <a href="https://gitlab.com">GitLab</a>.
+	    </li>
 	  </ol>
 
 	  <h3>Audit</h3>
-	  <ol>
-	    <li>
-	    Externally audit the current code base. (Timescale: Dependent on
-	    external body)</li>
-	    <p>
-	    <p>Update (14th October 2014):
-	    Auditors selected and funded; schedule being worked on.</p>
-	  </ol>
+	  <p>
+	  Externally audit the current code base. (Timescale: Dependent on
+	  external body)</p>
+	  <p>Update (14th October 2014):
+	  Auditors selected and funded; schedule being worked on.</p>
 
 	  <h3>Static/Dynamic Analysis</h3>
-	  <ol>
-	    <li>
-	    Regularly audit the code using appropriate analysis tools.
-	    (Timescale: Within six months)
-	    </p>
-	  </ol>
+	  <p>
+	  Regularly audit the code using appropriate analysis tools.
+	  (Timescale: Within six months)
+	  </p>
 
-	  <h3><a name="relstrat">Release Strategy</a></h3>
+	  <h3>Release Strategy</h3>
+	  <del>
 	  <p>
 	  We intend to develop a release strategy which will set out our plans
 	  for how frequently we plan to release, and when. It will also cover
@@ -271,6 +280,14 @@
 	    We need a way to refactor code and make necessary binary
 	    incompatible changes, deprecating APIs etc.</li>
 	  </ol>
+	  </del>
+	  Objective met (2015): We have announced a
+	  <a href="releasestrat.html">release strategiy</a>
+	  which includes end-of-life and long-term support definitions.
+	  Also, our
+	  <a href="secpolicy.html">security policy</a> has relevant
+	  information.
+	  </p>
 
 	  <h3>Platform Strategy</h3>
 	  <p>
@@ -327,21 +344,15 @@
 	  on how quickly we can refactor the code.</p>
 
 	  <h3>Security Strategy</h3>
-	  <del>
-	    <p>
-	    We will be documenting a security strategy which will define our
-	    policy on:</p>
-	    <ul>
-	      <li>
-	      How we make security fixes.</li>
-	      <li>
-	      What (if any) pre-notification of forthcoming security releases will
-	      be provided (and to whom) (Timescale: Within two months)</li>
-	    </ul>
-	  </del>
 	  <p>
-	  Objective met (7th September 2014): The OpenSSL security policy is available
-	  <a href="secpolicy.html">here</a>
+	  <del>
+	    We will be documenting a security strategy which will define our
+	    policy on how we make security fixes, and what (if any)
+	    pre-notification of forthcoming security releases will be provided
+	    (and to whom) (Timescale: Within two months)
+	  </del>
+	  <br>Objective met (7th September 2014): The OpenSSL security policy
+	  is available <a href="secpolicy.html">here</a>.
 	  </p>
 
 	  <h2><a name="forthcoming">Forthcoming Features</a></h2>
@@ -363,7 +374,7 @@
 	    <li>FIPS code review and refactor</li>
 	    <li>Support for emerging platforms, e.g. ARMv8, POWER8</li>
 	    <li>Built-in multi-threaded support for two major threading
-	    "flavours", POSIX threads and Win32</li>
+	    "flavours," POSIX threads and Win32</li>
 	  </ul>
 	  <p></p>
 
@@ -373,6 +384,8 @@
 	  issued 30-June-2014.
 	  </p>
 	  <ul>
+	    <li>8-August-2015.
+	    Many updates, for what happened in 2015.</li>
 	    <li>14-October-2014.
 	    Updated audit; added TLS 1.3 and Certificate
 	    Transparency to features.</li>
