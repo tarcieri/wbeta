@@ -1,8 +1,7 @@
 <!-- head.inc -->
-  <meta charset="utf-8">
   <title>OpenSSL</title>
+  <meta charset="utf-8">
   <meta name="author" content="OpenSSL Foundation, Inc.">
-
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,8 +17,8 @@
 
   <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<!-- end of head.inc -->
-
+  <![endif]-->
+<!-- end -->

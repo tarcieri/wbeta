@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 <!--#include virtual="/inc/head.inc" -->
-</head>
 
 <body>
 <!--#include virtual="/inc/banner.inc" -->
@@ -11,7 +9,7 @@
     <div id="content">
       <div class="blog-index">
 	<article>
-	  <header><h2>NEWS PAGE<h2></header>
+	  <header><h2>Latest Information<h2></header>
 	  <div class="entry-content">
 	    <p>
 	    blah b lah
@@ -30,11 +28,7 @@
     </div>
   </div>
 
-  <footer role="contentinfo">
-    <p>Copyright &copy; 2015 - OpenSSL Foundation, Inc.
-    Style by <a href="http://octopress.org">Octopress</a>
-    </p>
-  </footer>
+<!--#include virtual="/inc/footer.inc" -->
 </body>
 
 </html>
