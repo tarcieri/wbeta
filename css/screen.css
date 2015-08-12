@@ -1538,8 +1538,10 @@ body > footer p:last-child {
   margin-bottom: 0;
 }
 
-### OPENSSL WEBSITE ADDITIONS
-tr:nth-child(1) td { font-weight: bold; border-bottom: 1px solid black; }
+/* OPENSSL WEBSITE ADDITIONS */
+
+/* newsflash table */
+tr:first-child { font-weight: bold; border-bottom: 1px solid black; }
 tr:nth-child(even) { background-color: #D9f0ff; }
 td.d { float: left; width: 20%; }
 td.t { float: right; width: 80%; }
