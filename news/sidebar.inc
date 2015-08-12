@@ -10,9 +10,6 @@
 	<a href="vulnerabilities">Vulnerabilities</a>
       </li>
       <li>
-	<a href="newsflash">Newsflash</a>
-      </li>
-      <li>
 	<a href="changelogs">Changelogs</a>
       </li>
     </ul>
