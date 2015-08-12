@@ -182,5 +182,5 @@ Note: the online version of the advisory may be updated with additional
 details over time.
 
 For details of OpenSSL severity classifications please see:
-https://www.openssl.org/about/secpolicy.html
+https://www.openssl.org/policies/secpolicy.html
 
