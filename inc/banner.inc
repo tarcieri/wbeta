@@ -3,9 +3,12 @@
   <hgroup>
     <h1>
       <a href="/">
-	<img src="/img/openssl.png" alt="OpenSSL"></img>
+        <span id="header-open-text">Open</span><span id="header-ssl-text">SSL</span>
       </a>
     </h1>
+    <h2>
+      Cryptography and SSL/TLS Toolkit
+    </h2>
   </hgroup>
 </header>
 

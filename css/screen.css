@@ -121,14 +121,30 @@ body > div > div {
 
 body > header h1 {
   font-size: 2.2em;
-  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: normal;
   line-height: 1.2em;
   margin-bottom: 0.6667em;
 }
 
 body > header h2 {
-  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: black;
+  position: relative;
+  top: -0.8em;
+  left: 5em;
+}
+
+#header-open-text {
+  font-weight: 300;
+  font-size: 1.8em;
+  color: #721412;
+}
+
+#header-ssl-text {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: black;
 }
 
 body {
@@ -406,6 +422,7 @@ body > header {
   font-size: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+  margin-bottom: -1em;
 }
 
 #content {
@@ -618,7 +635,7 @@ body.sidebar-footer .toggle-sidebar {
   }
 }
 body > header {
-  background: #333333;
+  background: #cccccc;
 }
 body > header h1 {
   display: inline-block;
@@ -630,9 +647,12 @@ body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
 }
 body > header h2 {
   margin: .2em 0 0;
-  font-size: 1em;
-  color: #aaaaaa;
-  font-weight: normal;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: black;
+  position: relative;
+  top: -0.8em;
+  left: 5em;
 }
 
 body > nav {
