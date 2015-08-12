@@ -58,7 +58,7 @@ Date: Item
 10-May-2012: OpenSSL 1.0.0j is now available, including security fixes
 10-May-2012: OpenSSL 0.9.8x is now available, including security fixes
 26-Apr-2012: OpenSSL 1.0.1b is now available, including important bug fixes
-25-Apr-2012: <a href="notice_20120425.txt">Notice</a>:OpenSSL 1.0.1a compilation problems with non x86 platforms
+25-Apr-2012: Notice: OpenSSL 1.0.1a compilation problems with non x86 platforms
 24-Apr-2012: OpenSSL 0.9.8w is now available, including security fixes
 24-Apr-2012: <a href="secadv_20120424.txt">Security Advisory</a>: ASN1 incomplete fix for OpenSSL 0.9.8
 19-Apr-2012: OpenSSL 1.0.1a is now available, including important bug and security fixes
@@ -215,13 +215,13 @@ Date: Item
 22-Mar-1999: Long-awaited OpenSSL 0.9.2b now available
 04-Mar-1999: Important patch for OpenSSL 0.9.1c available
 28-Feb-1999: Added: How To establish an FTP mirror
-20-Feb-1999: Daily <a href="ftp://ftp.openssl.org/snapshot/">snapshot tarballs</a> now available
+20-Feb-1999: Daily snapshot tarballs now available
 15-Feb-1999: New: archives of our mailing lists
 10-Feb-1999: Web form for subscribing to our mailing lists
 02-Feb-1999: Added list of OpenSSL Applications
 16-Jan-1999: The first FTP Mirrors are available
 31-Dec-1998: New: Browsing interface to the CVS repository
-29-Dec-1998: Designed the new <a href="http://www.openssl.org/">www.openssl.org</a> website
+29-Dec-1998: Designed the new www.openssl.org website
 27-Dec-1998: Established the OpenSSL mailing lists
 26-Dec-1998: Established the CVS Repository environment
 23-Dec-1998: Released OpenSSL 0.9.1c
