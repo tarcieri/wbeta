@@ -10,7 +10,7 @@
 	<a href="vulnerabilities">Vulnerabilities</a>
       </li>
       <li>
-	<a href="changelogs">Changelogs</a>
+	<a href="changelog.html">Changelog</a>
       </li>
     </ul>
   </section>

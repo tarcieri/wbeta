@@ -1,3 +1,5 @@
 *.swp
 newsflash.inc
 new/newsflash.inc
+news/changelog.inc
+news/changelog.txt
